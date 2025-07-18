@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>www.solution-confidence.com</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!--formulaire paiement-->
+    <div class="container">
+        <div class="row">
+
+            <div class="col">
+                <h4 style="text-align: center; margin-top: 3%; margin-bottom: 5%;" >Informations</h4>
+                <form action="">
+                    <div>
+                       <label for="genre"><strong>Genre</strong></label>
+                       <input type="radio" id="genre" name="genre" value="Homme" required> Homme
+                       <input type="radio" id="genre" name="genre" value="Femme" required> Femme
+                    </div>
+
+                    <div class="mb-3" style="margin-top: 5%;">
+                      <label for="email" class="form-label"><strong>Votre email</strong></label>
+                      <input type="email" class="form-control" id="email">
+                    </div>
+
+                     <div class="form-label">
+                      <label for="message"><strong>Votre message</strong>(Donnez le maximum de détails sur votre récit, problème ou question)</label>
+                      <textarea class="form-control" rows="10" id="message"></textarea>
+                     </div>
+
+                    
+                </form>
+            </div>
+
+
+
+            <div class="col">
+                <h4 style="text-align: center; margin-top: 3%; margin-bottom: 5%;" >Votre formule</h4>
+      <!--card paiement-->
+                <div class="card" style="margin-left: 15%; height: 50%;">
+                  <h5 class="card-header" style="background-color: #d6eaf8;" >Formule 3</h5>
+                  <div class="card-body">
+                    <h5 class="card-title">Réponse prioritaire (moins de 12h)</h5>
+                    <p class="card-text">Option d’urgence, avec une réponse rapide mais toujours soignée.</p>
+
+                    <div class="d-flex justify-content-between border-top pt-3">
+                            <strong>Total</strong>
+                            <strong>2000 FCFA</strong>
+                    </div>
+
+                  </div>
+                </div>
+         <!--boutton payer et soumettre-->
+                <div>
+                    <button style="background-color: #d6eaf8; margin-left: 70%; margin-top: 10%;">
+                        Payer et soumettre</button>
+                </div>       
+            </div>
+
+          <!--retour page accueil-->  
+            <div>
+                <button style="margin-top: 5%; margin-left: 43%; background-color:#78c0f3;">
+                    <a style="color: black;" href="accueil.html">Retour à la page accueil</a></button>
+                
+            </div>
+
+        </div>
+    </div>
+
+    
+    
+       
+</body>
+</html>
